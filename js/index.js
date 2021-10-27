@@ -22,5 +22,7 @@ const config = {
     e8: "bK",
   },
   draggable: true,
+  onchange: onchange,
 };
 const board = Chessboard("myBoard", config);
+function onChange() {}
